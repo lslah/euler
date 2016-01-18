@@ -16,6 +16,7 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Euler.E1
+                     , Euler.E2
                      , Euler.E60
   build-depends:       base >= 4.7 && < 5
                      , primes
