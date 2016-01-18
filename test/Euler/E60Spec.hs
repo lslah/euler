@@ -17,8 +17,6 @@ spec = do
     describe "solve" $ do
         it "example" $
             solve 4 `shouldBe` 3+7+109+673
-        it "solution" $
-            solve 5 `shouldBe` 0
     describe "remarkableSet" $ do
         it "two ints form a remarkable set if they are remarkable" $ property $
             \(Positive x) (Positive y) -> remarkable x y == remarkableSet [x] y
