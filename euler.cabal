@@ -38,6 +38,7 @@ test-suite euler-test
   build-depends:       base
                      , euler
                      , hspec
+                     , primes
                      , QuickCheck
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N -Wall -Werror
   default-language:    Haskell2010
